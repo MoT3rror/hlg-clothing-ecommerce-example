@@ -4,3 +4,32 @@
 .masthead {
     margin-top: 2%;
 }
+.specials, .ads, .footer {
+    margin-top: 2%;
+    text-align: center
+}
+.specials .product {
+    max-width: 300px;
+}
+body {
+    padding-bottom: 50px
+}
+
+
+.footer .navbar-header {
+    float: none;
+}
+.footer .navbar-toggle {
+    display: block;
+}
+.footer .navbar-nav {
+    float: none!important;
+}
+.footer .navbar-nav>li {
+  float: none;
+}
+@media (min-width: 768px) {
+    .footer .navbar-header button {
+        display: none
+    }
+}
